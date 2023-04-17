@@ -1,0 +1,249 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Dancing Script', cursive;
+}
+html,body{
+    overflow-x:hidden;
+    }
+.nav-link , .navbar-brand{
+        font-family: 'Dancing Script', cursive;
+        font-size: 25px;
+        color: aliceblue !important;
+}
+.nav1{
+    background-color: black;
+    padding-left: 540px;
+    padding-right: 400px;
+}
+a.navbar-brand{
+    font-size: 28px;
+}
+
+.nav1 .navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='20' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.box{
+    color: aliceblue;
+    background: black;    
+
+}
+.whole{
+    background: black;    
+    color: aliceblue;
+}
+.carousel-item img{
+    height: 80vh;
+    background-size: cover;
+}
+.carousel-caption{
+    margin-bottom: 7%;
+}
+.carousel-caption h5{
+    font-size: 65px;
+    letter-spacing: 2px;
+    margin-top: 35px;
+    color: white;
+}
+.carousel-caption p{
+    width: 40%;
+    margin: auto;
+    font-size: 25px;
+    line-height: 1.9;
+    color:white;
+}
+.text{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+.image{
+    height: 300px;
+    width: 250px;
+    position: relative;
+    transition: all 1s linear;
+    transform-style: preserve-3d;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.front1,
+.back{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.front1{
+    z-index:2;
+    backface-visibility: hidden;
+}
+.back{
+     text-align: center;
+   color: aliceblue;
+    transform: rotateY(180deg);
+    font-family: 'Dancing Script', cursive;
+}
+.back p{
+    text-align: center;
+    font-size: larger;
+}
+.images:hover .image{
+    transform: rotateY(180deg);
+}
+
+.images{
+    margin-top: 8%;
+    padding-left: 50px;
+    padding-right: 50px;
+    perspective: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:120px;
+  
+}
+.images img{
+    width: 100%;
+    object-fit: contain;
+}
+.front{
+    margin-top:8%;
+    text-align: center;
+    font-size: 50px;
+}
+.section{
+    text-align: center;
+}
+.section .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+}
+
+.section .container .items{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem,1fr));
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.section .container .items:hover{
+    transform: scale(1.2);
+}
+.items img{
+   margin-left: 30px;
+   margin-right: 30px;
+    text-align: center;
+}
+.name{
+    text-align: center;
+    font-size: 27px;
+}
+.price{
+    text-align: center;
+    font-size: 20px;
+}
+.promo img{
+    height:650px;
+    width: 100%;
+}
+.promo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.location {
+    text-align: center;
+    background: black;
+    color: whitesmoke;
+}
+.c1 h3{
+    font-size: 50px;
+}
+.c1 p{
+    font-size: 30px;
+}
+.steps img{
+    width: 170px;
+    border-radius: 100px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.footer{
+    background-color: black; 
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.input{
+    font-size: 25px;
+    background-color: black;
+    height: 50px;
+}
+form{
+    padding-bottom: 15px ;
+    background-color: black;
+    text-align: center;
+}
+::placeholder{
+    text-align: center;
+}
+#person,#time{
+width: 450px;
+height: 40px;
+font-size: 20px;
+text-align: center;
+}
+.w1{
+background-color: black;
+border-top: white;
+    border-style: solid;
+
+}
+.connect{
+    width: 100%;
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+   
+}
+.connect p{
+    margin: 0%;
+}
+.connect img{
+  gap:40px;
+}
+.connect img:hover{
+    transform: scale(1.2);
+
+}
+.last{
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    justify-content: center;
+    text-align: center;
+}
+.tag{
+    font-size: 50px;
+}
+.heading{
+    font-size: 40px;
+}
+.i{
+    font-size: 25px;
+}
+.footer2{
+    background-color: black;
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+}
+
