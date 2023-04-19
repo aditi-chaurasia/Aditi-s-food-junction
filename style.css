@@ -33,7 +33,7 @@ a.navbar-brand{
     color: aliceblue;
 }
 .carousel-item img{
-    height: 80vh;
+    height: 650px;
     background-size: cover;
 }
 .carousel-caption{
